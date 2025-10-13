@@ -1,0 +1,17 @@
+[
+      {
+            "columnNumber": 0,
+            "era": "Game era",
+            "techCost": 1,
+		"buildingCost": 1,
+		"wonderCost": 1,
+            "techs": [
+                  {
+                        "name": "Techs",
+                        "row": 5,
+                        "quote": "",
+                        "uniques": ["Starting tech"]
+                  }
+            ]     
+      }
+]

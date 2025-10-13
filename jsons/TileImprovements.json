@@ -1,0 +1,74 @@
+[
+	// to access resources
+	{
+		"name": "Source",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Hill","Forest","Mountain"],
+		"turnsToBuild": 0,
+		"uniques": [
+			"Provides [1] [Sheep] <in [{Featureless} {Grassland}] tiles> <with [10]% chance>",
+			"Provides [1] [Wheat] <in [{Featureless} {Plains}] tiles> <with [10]% chance>",
+			"Provides [1] [Bricks] <in [Hill] tiles> <with [10]% chance>",
+			"Provides [1] [Ore] <in [Mountain] tiles> <with [10]% chance>",
+			"Provides [1] [Wood] <in [Forest] tiles> <with [10]% chance>",
+			"Only available <in tiles adjacent to [City center] tiles>"
+		],
+		"shortcutKey": "S"
+	},
+	// Transportation
+	{
+		"name": "Road",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"turnsToBuild": 0,
+		"uniques": ["Unbuildable", "Will not be displayed in Civilopedia"]
+	},
+	{
+		"name": "Railroad",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"turnsToBuild": 0,
+		"uniques": [
+			"Can be built just outside your borders",
+			"Costs [1] [Bricks]",
+			"Costs [1] [Wood]",
+			"Only available <with [Bricks]> <with [Wood]>",
+			"Gain control over [Unowned] tiles in a [0]-tile radius"
+		],
+		"shortcutKey": "R"
+	},
+	// Purely for turnsToBuild and civilopediaText. Unbuildable so it doesn't show in ImprovementPicker
+	{
+        "name": "Repair",
+        "terrainsCanBeBuiltOn": ["Land"],
+        "turnsToBuild": 0,
+        "uniques": ["Unbuildable"],
+        "shortcutKey": "E",
+        "civilopediaText": [{"text":"Repairs a pillaged Improvement or Route"}]
+    },
+	
+	{
+		"name": "City ruins",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": ["Unpillagable", "Unbuildable"]
+	},
+	{
+		"name": "City center",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": [
+			"Unpillagable",
+			"Irremovable",
+			"Unbuildable",
+			"Provides [1] [Points]",
+			"Gain control over [All] tiles in a [1]-tile radius",
+			"Ensures a minimum tile yield of [+2 Food, +1 Production]",
+			"Turn this tile into a [Developed City] tile <upon constructing [City Block]> <in cities with a [City Block]>"
+		],
+        "civilopediaText": [
+			{"text":"Marks the center of a city"}
+		]
+	},
+	{
+		"name": "Barbarian encampment",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": ["Unpillagable", "Unbuildable", "Provides a random bonus when entered"],
+        "civilopediaText": [{"text":"Home to uncivilized barbarians, will spawn a hostile unit from time to time"}]
+	}
+]

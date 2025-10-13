@@ -1,0 +1,42 @@
+{
+    "name": "Global uniques",
+    "uniques": [
+        "[-100]% maintenance costs",
+
+        "Instantly gain [-1] [Golden Age points] <for every [Happiness]> <upon turn end>",
+
+        "[-1 Science] per [1] population [in all cities]",
+
+        "Notified of new Barbarian encampments",
+
+        "Improves movement speed on roads",
+        "Roads connect tiles across rivers",
+
+        "Enables embarkation for land units",
+        "Enables [All] units to enter ocean tiles",
+
+        "Nullifies Growth [in all cities]",
+
+        "Reveals the entire map",
+
+        "Provides [9] [Threshold]",
+
+        "[+500]% Strength <vs [Barbarian] units>",
+        "Heals [100] damage if it kills a unit <for [Major] Civilizations>",
+
+        "[-50]% Strength for cities <when attacking>",
+
+        "May buy [All] buildings for [0] [Gold] [in all cities]",
+        "May buy [Settler] units for [0] [Gold] [in all cities]",
+        "May buy [Worker] units for [0] [Gold] [in all cities]"
+
+    ],
+    "unitUniques": [
+        "May Paradrop to [Terrain] tiles up to [50] tiles away <for [non-[Barbarian]] units>",
+        "Can see over obstacles",
+        "Ignores terrain cost",
+        "Can move immediately once bought",
+        "Can move after attacking <for [Major] Civilizations>",
+        "May travel on Water tiles without embarking"
+    ]
+}

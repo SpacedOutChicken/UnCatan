@@ -1,0 +1,63 @@
+[	
+	{
+		"name": "Threshold",
+		"resourceType": "Bonus",
+		"uniques": [
+			"Doesn't generate naturally",
+			"Excluded from map editor"
+		]
+	},
+	{
+		"name": "Points",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Doesn't generate naturally",
+			"Excluded from map editor"
+		]
+	},
+	{
+		"name": "Sheep",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Stockpiled",
+			"Doesn't generate naturally",
+			"Excluded from map editor"
+		]
+	},
+	{
+		"name": "Wheat",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Stockpiled",
+			"Doesn't generate naturally",
+			"Excluded from map editor"
+		]
+	},
+	{
+		"name": "Bricks",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Stockpiled",
+			"Doesn't generate naturally",
+			"Excluded from map editor"
+		]
+	},
+	{
+		"name": "Ore",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Stockpiled",
+			"Doesn't generate naturally",
+			"Excluded from map editor"
+		]
+	},
+	{
+		"name": "Wood",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Stockpiled",
+			"Doesn't generate naturally",
+			"Excluded from map editor"
+		]
+	}
+]

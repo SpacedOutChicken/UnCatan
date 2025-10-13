@@ -1,0 +1,28 @@
+[
+	{
+		"name": "Base",
+		"baseHappiness": 10,
+		"extraHappinessPerLuxury": 1,
+		"researchCostModifier": 1,
+		"unitCostModifier": 1,
+		"buildingCostModifier": 1,
+		"policyCostModifier": 1,
+		"unhappinessModifier": 0.0,
+		"unitSupplyBase": 1000,
+		"barbarianBonus": 0,
+		"playerBonusStartingUnits": [],
+		"aiCityGrowthModifier": 1,
+		"aiUnitCostModifier": 1,
+		"aiBuildingCostModifier": 1,
+		"aiWonderCostModifier": 1,
+		"aiBuildingMaintenanceModifier": 1,
+		"aiUnitMaintenanceModifier": 1,
+		"aiFreeTechs": [],
+		"aiMajorCivBonusStartingUnits": [],
+		"aiCityStateBonusStartingUnits": [],
+		"aiUnhappinessModifier": 1,
+		"aisExchangeTechs": false,
+		"turnBarbariansCanEnterPlayerTiles": 0,
+		"clearBarbarianCampReward": 0
+	}
+]

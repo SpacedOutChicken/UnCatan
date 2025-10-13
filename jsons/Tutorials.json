@@ -1,0 +1,12 @@
+[
+    {
+        "name": "UnCatan",
+        "civilopediaText": [
+            {"text": "By Lodo the Bear, aka SpacedOutChicken"},
+            {},
+            {"text": "Welcome to Catan, the land from your favorite board game, now brought to Unciv! Found your cities, build roads and buildings, drive off barbarians with your soldiers, and earn points to achieve victory!"},
+            {"text": "There are some differences, as you will see. To harvest resources, you must build [Source] tile improvements on your tiles. You must also steer your workers to place the railroads you need to connect cities. In cities by the coast, you must build exchanges by Trade Port tiles to take advantage of better trade ratios."},
+            {"text": "Other than that, you should be right at home here. Have fun!"}
+        ]
+    }
+]

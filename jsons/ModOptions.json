@@ -1,0 +1,19 @@
+{
+    "isBaseRuleset": true,
+    "uniques": [
+        "Disable religion",
+        "Diplomatic relationships cannot change"
+    ],
+    "tileset": "Minimal",
+    "unitset": "None",
+    "constants": {
+        "maxXPfromBarbarians":0,
+        "cityStrengthBase": 10,
+        "cityStrengthPerPop":0.0,
+        "cityStrengthFromTechsMultiplier": 0,
+        "cityStrengthFromTechsExponent": 0,
+        "unitSupplyPerPopulation": 0,
+        "minimalCityDistance": 2,
+        "baseCityBombardRange": 1
+    }
+}

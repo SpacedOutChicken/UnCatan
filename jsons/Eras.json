@@ -1,0 +1,19 @@
+[
+    {
+        "name": "Game era",
+        "researchAgreementCost": 350,
+        "startingSettlerCount": 2,
+        "startingWorkerCount": 2,
+        "startingMilitaryUnitCount": 1,
+        "startingMilitaryUnit": "Soldier",
+        "startingGold": 0,
+        "startingCulture": 0,
+        "settlerPopulation": 1,
+        "settlerBuildings": [],
+        "iconRGB": [33, 150, 243],
+        "baseUnitBuyCost": 400,
+        "embarkDefense": 10,
+        "startPercent": 0,
+        "citySound": "cityIndustrial"
+    }
+]

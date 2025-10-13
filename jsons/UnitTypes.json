@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Civilian",
+        "movementType": "Land",
+        "uniques": [
+            "Cannot attack",
+            "Unit will heal every turn, even if it performs an action"
+        ]
+    },
+    {
+        "name": "Sword",
+        "movementType": "Land"
+    }
+]

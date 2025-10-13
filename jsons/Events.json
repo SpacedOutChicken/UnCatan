@@ -1,0 +1,175 @@
+[
+    {
+        "name": "Development",
+        "presentation": "None",
+        "choices": [
+            {
+                "text": "Gain a soldier",
+                "uniques": [
+                    "Triggers a [Gain Soldier] event"
+                ]
+            },
+            {
+                "text": "Build a road",
+                "uniques": [
+                    "Triggers a [Gain Roads] event",
+                    "[-15]% weight to this choice for AI decisions"
+                ]
+            },
+            {
+                "text": "Gain resources",
+                "uniques": [
+                    "Triggers a [Gain Resources] event"
+                ]
+            },
+            {
+                "text": "Gain a building",
+                "uniques": [
+                    "Triggers a [Gain Building] event",
+                    "Unavailable <if [Bank] is constructed> <if [Castle] is constructed> <if [Market] is constructed> <if [Library] is constructed> <if [University] is constructed>",
+                    "[-25]% weight to this choice for AI decisions"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Gain Soldier",
+        "presentation": "Alert",
+        "text": "We have gained a soldier!",
+        "choices": [
+            {
+                "uniques": [
+                    "Free [Soldier] appears"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Gain Roads",
+        "presentation": "Alert",
+        "text": "We have gained material for a road!",
+        "choices": [
+            {
+                "uniques": [
+                    "Instantly gain [2] [Bricks]",
+                    "Instantly gain [2] [Wood]"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Gain Resources",
+        "presentation": "Alert",
+        "text": "You may gain 2 of any resource of your choice!",
+        "choices": [
+            {
+                "text": "Gain wood",
+                "uniques": [
+                    "Instantly gain [2] [Wood]"
+                ]
+            },
+            {
+                "text": "Gain bricks",
+                "uniques": [
+                    "Instantly gain [2] [Bricks]"
+                ]
+            },
+            {
+                "text": "Gain ore",
+                "uniques": [
+                    "Instantly gain [2] [Ore]"
+                ]
+            },
+            {
+                "text": "Gain wheat",
+                "uniques": [
+                    "Instantly gain [2] [Wheat]"
+                ]
+            },
+            {
+                "text": "Gain sheep",
+                "uniques": [
+                    "Instantly gain [2] [Sheep]"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Gain Building",
+        "presentation": "Alert",
+        "text": "You may build a building to gain victory points!",
+        "choices": [
+            {
+                "text": "Build a Library",
+                "uniques": [
+                    "Gain a free [Library] [in capital]",
+                    "Only available <if [Library] is not constructed>"
+                ]
+            },
+            {
+                "text": "Build a Market",
+                "uniques": [
+                    "Gain a free [Market] [in capital]",
+                    "Only available <if [Market] is not constructed>"
+                ]
+            },
+            {
+                "text": "Build a University",
+                "uniques": [
+                    "Gain a free [University] [in capital]",
+                    "Only available <if [University] is not constructed>"
+                ]
+            },
+            {
+                "text": "Build a Bank",
+                "uniques": [
+                    "Gain a free [Bank] [in capital]",
+                    "Only available <if [Bank] is not constructed>"
+                ]
+            },
+            {
+                "text": "Build a Castle",
+                "uniques": [
+                    "Gain a free [Castle] [in capital]",
+                    "Only available <if [Castle] is not constructed>"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Spend",
+        "presentation": "Alert",
+        "choices": [
+            {
+                "text": "Gain wood",
+                "uniques": [
+                    "Instantly gain [1] [Wood]"
+                ]
+            },
+            {
+                "text": "Gain bricks",
+                "uniques": [
+                    "Instantly gain [1] [Bricks]"
+                ]
+            },
+            {
+                "text": "Gain ore",
+                "uniques": [
+                    "Instantly gain [1] [Ore]"
+                ]
+            },
+            {
+                "text": "Gain wheat",
+                "uniques": [
+                    "Instantly gain [1] [Wheat]"
+                ]
+            },
+            {
+                "text": "Gain sheep",
+                "uniques": [
+                    "Instantly gain [1] [Sheep]"
+                ]
+            }
+        ]
+    }
+]

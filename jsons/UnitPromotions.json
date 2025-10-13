@@ -1,0 +1,12 @@
+[
+
+	{
+		"name": "Heal Instantly",
+		"uniques": ["[This Unit] heals [100] HP", "This Promotion is free"],
+		"unitTypes": ["Sword"],
+        "row": 0,
+        "column": 0,
+		"innerColor": [195,53,43],
+		"outerColor": [253,236,234]
+    }
+]

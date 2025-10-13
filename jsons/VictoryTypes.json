@@ -1,0 +1,9 @@
+[
+	{
+        "name": "Point-Based",
+        "victoryScreenHeader": "Earn 10 points to win!",
+        "milestones": ["Have more [Points] than each player's [Threshold]", "Have more [Points] than each player's [Points]"],
+        "victoryString": "You win!",
+        "defeatString": "You have been defeated."
+    }
+]

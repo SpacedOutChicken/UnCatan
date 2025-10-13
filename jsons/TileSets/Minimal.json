@@ -1,0 +1,31 @@
+{
+    "useColorAsBaseTerrain": "true",
+    "useSummaryImages": "true",
+    "fallbackTileSet": null,
+    "ruleVariants": {
+        "Plains+Forest": ["Forest"],
+        "Grassland+Forest": ["Forest"],
+        "Plains+Hill": ["Hill"],
+        "Grassland+Hill": ["Hill"],
+        "Plains+City center": ["City center"],
+        "Grassland+City center": ["City center"],
+        "Mountain+City center": ["City center"],
+        "Grassland+Forest+City center": ["City center"],
+        "Plains+Forest+City center": ["City center"],
+        "Grassland+Hill+City center": ["City center"],
+        "Plains+Hill+City center": ["City center"],
+        "Coast+Trade Port": ["Trade Port"],
+        "Developed City+City center": ["Developed City"]
+    },
+    "tileScales": {
+        "City center":0.7,
+        "Forest":0.5,
+        "Hill":0.5,
+        "Plains": 0.5,
+        "Grassland": 0.5,
+        "Lakes":0.35,
+        "Mountain":0.5,
+        "Trade Port": 0.5,
+        "Developed City": 0.6
+    }
+}

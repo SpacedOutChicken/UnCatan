@@ -1,0 +1,223 @@
+[
+    {
+		"name": "Home Base",
+		"cost": 1,
+        "isNationalWonder": true,
+		"uniques": [
+            "Indicates the capital city"
+        ]
+    },
+    {
+		"name": "City Block",
+		"cost": 1,
+		"uniques": [
+            "Provides [1] [Points]",
+            "Costs [2] [Wheat]",
+            "Costs [3] [Ore]",
+            "Limited to [4] per Civilization",
+            "Turn this tile into a [Developed City] tile"
+        ]
+    },
+    {
+		"name": "Development Card",
+		"cost": 1,
+		"uniques": [
+            "Costs [1] [Wheat]",
+            "Costs [1] [Ore]",
+            "Costs [1] [Sheep]",
+            "Triggers a [Development] event",
+            "Remove [Development Card] [in this city]"
+        ]
+    },
+    {
+		"name": "Spend Wood",
+		"cost": 1,
+		"uniques": [
+            "Costs [4] [Wood] <if [Universal Exchange] is not constructed> <if [Wood Exchange] is not constructed>",
+            "Costs [3] [Wood] <if [Universal Exchange] is constructed> <if [Wood Exchange] is not constructed>",
+            "Costs [2] [Wood] <if [Wood Exchange] is constructed>",
+            "Triggers a [Spend] event",
+            "Remove [Spend Wood] [in this city]"
+        ]
+    },
+    {
+		"name": "Spend Wheat",
+		"cost": 1,
+		"uniques": [
+            "Costs [4] [Wheat] <if [Universal Exchange] is not constructed> <if [Wheat Exchange] is not constructed>",
+            "Costs [3] [Wheat] <if [Universal Exchange] is constructed> <if [Wheat Exchange] is not constructed>",
+            "Costs [2] [Wheat] <if [Wood Exchange] is constructed>",
+            "Triggers a [Spend] event",
+            "Remove [Spend Wheat] [in this city]"
+        ]
+    },
+    {
+		"name": "Spend Bricks",
+		"cost": 1,
+		"uniques": [
+            "Costs [4] [Bricks] <if [Universal Exchange] is not constructed> <if [Bricks Exchange] is not constructed>",
+            "Costs [3] [Bricks] <if [Universal Exchange] is constructed> <if [Bricks Exchange] is not constructed>",
+            "Costs [2] [Bricks] <if [Bricks Exchange] is constructed>",
+            "Triggers a [Spend] event",
+            "Remove [Spend Bricks] [in this city]"
+        ]
+    },
+    {
+		"name": "Spend Sheep",
+		"cost": 1,
+		"uniques": [
+            "Costs [4] [Sheep] <if [Universal Exchange] is not constructed> <if [Sheep Exchange] is not constructed>",
+            "Costs [3] [Sheep] <if [Universal Exchange] is constructed> <if [Sheep Exchange] is not constructed>",
+            "Costs [2] [Sheep] <if [Sheep Exchange] is constructed>",
+            "Triggers a [Spend] event",
+            "Remove [Spend Sheep] [in this city]"
+        ]
+    },
+    {
+		"name": "Spend Ore",
+		"cost": 1,
+		"uniques": [
+            "Costs [4] [Ore] <if [Universal Exchange] is not constructed> <if [Ore Exchange] is not constructed>",
+            "Costs [3] [Ore] <if [Universal Exchange] is constructed> <if [Ore Exchange] is not constructed>",
+            "Costs [2] [Ore] <if [Ore Exchange] is constructed>",
+            "Triggers a [Spend] event",
+            "Remove [Spend Ore] [in this city]"
+        ]
+    },
+    {
+        "name": "Harbor",
+        "cost": 1,
+        "uniques": [
+            "Must be next to [Trade Port]",
+            "Automatically built in all cities where it is buildable"
+        ]
+    },
+    {
+        "name": "Wood Exchange",
+        "cost": 1,
+        "uniques": [
+            "Exchange",
+            "Only available <in cities with a [Harbor]> <in cities without a [Exchange]>",
+            "Unsellable"
+        ]
+    },
+    {
+        "name": "Wheat Exchange",
+        "cost": 1,
+        "uniques": [
+            "Exchange",
+            "Only available <in cities with a [Harbor]> <in cities without a [Exchange]>",
+            "Unsellable"
+        ]
+    },
+    {
+        "name": "Sheep Exchange",
+        "cost": 1,
+        "uniques": [
+            "Exchange",
+            "Only available <in cities with a [Harbor]> <in cities without a [Exchange]>",
+            "Unsellable"
+        ]
+    },
+    {
+        "name": "Ore Exchange",
+        "cost": 1,
+        "uniques": [
+            "Exchange",
+            "Only available <in cities with a [Harbor]> <in cities without a [Exchange]>",
+            "Unsellable"
+        ]
+    },
+    {
+        "name": "Universal Exchange",
+        "cost": 1,
+        "uniques": [
+            "Exchange",
+            "Only available <in cities with a [Harbor]> <in cities without a [Exchange]>",
+            "Unsellable"
+        ]
+    },
+    {
+        "name": "Bricks Exchange",
+        "cost": 1,
+        "uniques": [
+            "Exchange",
+            "Only available <in cities with a [Harbor]> <in cities without a [Exchange]>",
+            "Unsellable"
+        ]
+    },
+    {
+        "name": "Longest Road",
+        "isWonder": true,
+        "cost": 1,
+        "uniques": [
+            "Only available <in [Capital] cities>",
+            "Only available <when number of [Owned [All Road] Tiles] is more than [6]> <when number of [[in all cities connected to capital] Cities] is more than [1]>",
+            "Automatically built in all cities where it is buildable",
+            "Triggers a global alert upon completion",
+            "Provides [2] [Points]"
+        ]
+    },
+    {
+        "name": "Largest Army",
+        "isWonder": true,
+        "cost": 1,
+        "uniques": [
+            "Only available <in [Capital] cities>",
+            "Only available <when number of [[Soldier] Units] is more than [4]>",
+            "Automatically built in all cities where it is buildable",
+            "Triggers a global alert upon completion",
+            "Provides [2] [Points]"
+        ]
+    },
+    {
+        "name": "Market",
+        "isNationalWonder": true,
+        "cost": 1,
+        "uniques": [
+            "Cannot be purchased",
+            "Unbuildable",
+            "Provides [1] [Points]"
+        ]
+    },
+    {
+        "name": "Library",
+        "isNationalWonder": true,
+        "cost": 1,
+        "uniques": [
+            "Cannot be purchased",
+            "Unbuildable",
+            "Provides [1] [Points]"
+        ]
+    },
+    {
+        "name": "University",
+        "isNationalWonder": true,
+        "cost": 1,
+        "uniques": [
+            "Cannot be purchased",
+            "Unbuildable",
+            "Provides [1] [Points]"
+        ]
+    },
+    {
+        "name": "Bank",
+        "isNationalWonder": true,
+        "cost": 1,
+        "uniques": [
+            "Cannot be purchased",
+            "Unbuildable",
+            "Provides [1] [Points]"
+        ]
+    },
+    {
+        "name": "Castle",
+        "isNationalWonder": true,
+        "cost": 1,
+        "uniques": [
+            "Cannot be purchased",
+            "Unbuildable",
+            "Provides [1] [Points]"
+        ]
+    }
+]
