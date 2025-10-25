@@ -46,7 +46,7 @@
 		"uniques": [
             "Costs [4] [Wheat] <if [Universal Exchange] is not constructed> <if [Wheat Exchange] is not constructed>",
             "Costs [3] [Wheat] <if [Universal Exchange] is constructed> <if [Wheat Exchange] is not constructed>",
-            "Costs [2] [Wheat] <if [Wood Exchange] is constructed>",
+            "Costs [2] [Wheat] <if [Wheat Exchange] is constructed>",
             "Triggers a [Spend] event",
             "Remove [Spend Wheat] [in this city]"
         ]
